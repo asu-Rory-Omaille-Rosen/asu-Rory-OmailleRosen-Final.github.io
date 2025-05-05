@@ -53,12 +53,14 @@ function betterCode() {
         twoText.innerHTML = "Joel and his family are eventually overrun. They walk the earth as Zombies. What shall they eat for dinner?"
         console.log(`I was Clicked!`)
         fork1()
+        
 
     }
     if (score === 5) {
     
         let twoText= document.getElementById(`two`)
         twoText.innerHTML= "Eggplant Parmesian is not sustenance... You grow weary and rejoin the earth"
+        
 }
 
     if (score === 4){
@@ -84,14 +86,6 @@ function betterCode() {
 }
 
 
-function resetUI() {}
-
-
-
-   
-
-
-
 
 function fork1 (){
 
@@ -110,6 +104,7 @@ function fork1 (){
         
          let optionB = document.getElementById(`b1`)
          optionB.innerHTML = "..."
+         
         }
          
 
@@ -123,55 +118,17 @@ if (score ===11) {
     let optionB = document.getElementById(`b1`)
     optionB.innerHTML = "Swerve off the paved road into the brush, aiming for the lights of the city"
     
-}
-
-
-
-}
-function fork2() {
-    if (score<=22 && score >20) {
-        var optionA = document.getElementById(`a1`)
-        var resultA = document.createElement(`p`)
-        var resultContentA = document.createTextNode("Brains")
-        resultA.appendChild(resultContentA)
-        optionA.appendChild(resultA)
-        var optionB = document.getElementById(`b1`)
-        var resultB = document.createElement(`p`)
-        var resultContentB = document.createTextNode("eggplant parmesean")
-        resultB.appendChild(resultContentB)
-        optionB.appendChild(resultB)
     
-    }
-
-    if (score <=3 && score > 2) {
-        var optionA = document.getElementById(`a1`)
-        var resultA = document.createElement(`p`)
-        var resultContentA = document.createTextNode("")
-        resultA.appendChild(resultContentA)
-        optionA.appendChild(resultA)
-        var optionB = document.getElementById(`b1`)
-        var resultB = document.createElement(`p`)
-        var resultContentB = document.createTextNode("")
-        resultB.appendChild(resultContentB)
-        optionB.appendChild(resultB)
-    
-    }
 }
+
+}
+
+
 
 
 
 function resetUI () {
-var resetButton = document.getElementById(`reset`)
-
-var clicker = document.createElement(`p`)
-
-clicker.innerText="Start Again"
-
-resetButton.appendChild(clicker)
-
-
-}
-
-function startAgain () {
     window.location.reload()
+quickBug()
 }
+
