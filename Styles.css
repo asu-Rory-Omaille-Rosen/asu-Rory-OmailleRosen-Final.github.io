@@ -6,4 +6,249 @@
  gray - #D9D9D9
  light black - #333333
  */
+
+ body { display: block;
+        font-family: 'Babas Neue', sans-serif;
+        font-size: 12px;}
+#heading {
+    font-size: 5em;
+    text-align: center;
+    background-color: #333333;
+    color: white
+}
+
+@media screen and (max-width: 600px) {
+
+    #About { font-size : 3em;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        }
+        #begin {
+            font-size: 2em;
+            text-align: center;
+            margin: 1em;
+            background-color: #333333;
+            color: white;
+            display: block;
+            align-self: start;
+
+            a { text-decoration: none;
+                color: white}
+            
+            a:hover { color:white}
+            
+        }
+
+
+
+    body { font-size: 12px;
+          background-color: #5e5e5e}
+          #one {
+            font-size: 1em;
+            text-align: center;
+            margin: 1em;
+            background-color: #333333;
+            color: white;
+     }
+     #two {
+        font-size: 1em;
+        text-align: center;
+        margin: 1em;
+        background-color: #333333;
+        color: white;
+        display: block;
+    }
+    #three {
+        font-size: 1em;
+        text-align: center;
+        margin: 1em;
+        background-color: #333333;
+        color: white;
+        display: block;
+    }
+    #response { 
+        display: block;
+        padding-top: 0.8em;
+        font-size: 1em;
+        justify-content: center;
+        grid-gap: none;
+       background-color: #333333;
+       color: white;
+       text-align: center;
+        font-weight: bold;
+        color: #F3D3BD ;
+        border:5px solid #F3D3BD;
+    
+    
+    }
+    
+    #choices {
+        border:5px solid #F3D3BD;
+        border-radius: 1em;
+        text-align: center;
+        font-weight: bold;
+        color: #F3D3BD ;
+
+}
+
+}
+@media screen and (min-width:600px) and (max-width: 1200px) {
+
+    #About { font-size : 5.5em;
+        justify-content: center;
+        text-align: center;
+        color: white;}
  
+    body { font-size: 12px;
+        background-color: #5e5e5e}
+    
+        #begin {
+            font-size: 3em;
+            text-align: center;
+            margin: 1em;
+            background-color: #333333;
+            color: white;
+            display: block;
+            
+        }
+    
+        #one {
+            font-size: 2em;
+            text-align: center;
+            margin: 1em;
+            background-color: #333333;
+            color: white;
+     }
+     #two {
+        font-size: 2em;
+        text-align: center;
+        margin: 1em;
+        background-color: #333333;
+        color: white;
+        display: block;
+    }
+    #three {
+        font-size: 2em;
+        text-align: center;
+        margin: 1em;
+        background-color: #333333;
+        color: white;
+        display: block;
+    }
+    #response { 
+        display: grid;
+        padding-top: 0.8em;
+        grid-template-columns: 50% 50%;
+        font-size: 3em;
+        justify-content: center;
+        grid-gap: none;
+       background-color: #333333;
+       color: white;
+       text-align: center;
+        font-weight: bold;
+        color: #F3D3BD ;
+        border:5px solid #F3D3BD;
+    
+    
+    }
+    
+    #choices {
+        border:5px solid #F3D3BD;
+        border-radius: 1em;
+        text-align: center;
+        font-weight: bold;
+        color: #F3D3BD ;
+
+}
+}
+@media screen and (min-width:1200px) and (max-width: 2400px) {
+
+    #About { font-size : 7em;
+             justify-content: center;
+             text-align: center;
+            color:white;}
+
+    
+    #begin {
+        font-size: 4em;
+        text-align: center;
+        margin: 1em;
+        background-color: #333333;
+        color: white;
+        display: block;
+        
+    }
+
+    
+    body { font-size: 12px;
+       background-color: #5e5e5e}
+
+ #one {
+        font-size: 4em;
+        text-align: center;
+        margin: 1em;
+        background-color: #333333;
+        color: white;
+ }
+ #two {
+    font-size: 4em;
+    text-align: center;
+    margin: 1em;
+    background-color: #333333;
+    color: white;
+    display: block;
+}
+#three {
+    font-size: 4em;
+    text-align: center;
+    margin: 1em;
+    background-color: #333333;
+    color: white;
+    display: block;
+}
+
+
+#hello{
+    font-size: 8em;
+}
+
+
+#reset {
+    font-size: 4em;
+    text-align: center;
+    margin: 10px;
+    background-color: #333333;
+    color: white;
+    display: block;
+}
+
+#response { 
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 50% 50%;
+    font-size: 3em;
+    justify-content: center;
+    grid-gap: 20px 20px;
+   background-color: #333333;
+   color: white;
+   text-align: center;
+    font-weight: bold;
+    color: #F3D3BD ;
+    border:5px solid #F3D3BD;
+
+
+}
+
+#choices {
+    border:5px solid #F3D3BD;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #F3D3BD ;
+
+    
+}
+
+ 
+}
