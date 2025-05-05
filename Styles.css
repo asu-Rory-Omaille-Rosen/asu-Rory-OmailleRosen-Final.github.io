@@ -8,8 +8,12 @@
  */
 
  body { display: block;
-        font-family: 'Babas Neue', sans-serif;
-        font-size: 12px;}
+        
+        font-size: 12px;
+        font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+    
+  }}
 #heading {
     font-size: 5em;
     text-align: center;
